@@ -11,6 +11,7 @@ TrustDeal is an **Omega-based commerce agent** built for the SingularityNET × O
 TrustDeal handles discount requests and produces more than an answer. It produces a **decision, the rules behind it, the evidence used, and an audit trail that explains why the decision happened.**
 
 ---
+Demo viedio-https://drive.google.com/file/d/1Hc7kTsjaAY8ziCy1wtbB7mM38j4BLuaf/view?usp=sharing
 
 ## The Idea
 
