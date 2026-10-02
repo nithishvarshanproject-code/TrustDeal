@@ -1,0 +1,68 @@
+/* Deal Desk — design tokens (dark fintech) */
+:root {
+  --bg: #0b0d12;
+  --surface: #131722;
+  --surface-2: #181d2a;
+  --surface-3: #1f2535;
+  --border: rgba(255, 255, 255, 0.06);
+  --border-strong: rgba(255, 255, 255, 0.11);
+  --text: #e8eaf0;
+  --muted: #8b93a7;
+  --faint: #5c6479;
+
+  --accent: #7c5cff;
+  --accent-hover: #8f74ff;
+  --accent-soft: rgba(124, 92, 255, 0.14);
+  --accent-glow: rgba(124, 92, 255, 0.35);
+
+  --approve: #22c55e;
+  --reject: #ef4444;
+  --counter: #f59e0b;
+  --escalate: #3b82f6;
+  --approve-soft: rgba(34, 197, 94, 0.12);
+  --reject-soft: rgba(239, 68, 68, 0.12);
+  --counter-soft: rgba(245, 158, 11, 0.12);
+  --escalate-soft: rgba(59, 130, 246, 0.12);
+
+  --radius-lg: 14px;
+  --radius: 12px;
+  --radius-sm: 8px;
+
+  --font: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --mono: "JetBrains Mono", "Cascadia Code", ui-monospace, Consolas, monospace;
+
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --fast: 160ms;
+  --medium: 320ms;
+
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+
+html, body, #root { height: 100%; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  font-size: 14px;
+  line-height: 1.5;
+  font-feature-settings: "tnum" 1, "cv11" 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+button, input, select, textarea { font: inherit; color: inherit; }
+
+::selection { background: var(--accent-soft); }
+
+/* Motion: everything off for users who ask for it */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-delay: 0ms !important;
+    transition-duration: 0.001ms !important;
+    transition-delay: 0ms !important;
+  }
+}

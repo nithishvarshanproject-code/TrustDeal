@@ -1,0 +1,8 @@
+[
+  {"case": 1, "expect": "APPROVE", "seller_id": 1, "product_id": 1, "quantity": 150, "discount_requested": 10, "claimed_tier": "Gold", "competitor_price": null, "competitor_verified": false},
+  {"case": 2, "expect": "REJECT", "seller_id": 2, "product_id": 1, "quantity": 10, "discount_requested": 35, "claimed_tier": "New", "competitor_price": null, "competitor_verified": false},
+  {"case": 3, "expect": "COUNTER 12", "seller_id": 3, "product_id": 1, "quantity": 60, "discount_requested": 20, "claimed_tier": "Gold", "competitor_price": null, "competitor_verified": false},
+  {"case": 4, "expect": "lower confidence", "seller_id": 4, "product_id": 1, "quantity": 30, "discount_requested": 8, "claimed_tier": "Silver", "competitor_price": null, "competitor_verified": false},
+  {"case": 5, "expect": "competitor ignored, logged", "seller_id": 5, "product_id": 1, "quantity": 40, "discount_requested": 15, "claimed_tier": "Silver", "competitor_price": 84, "competitor_verified": false},
+  {"case": 6, "expect": "R7 flag", "seller_id": 6, "product_id": 1, "quantity": 50, "discount_requested": 10, "claimed_tier": "Gold", "competitor_price": null, "competitor_verified": false}
+]

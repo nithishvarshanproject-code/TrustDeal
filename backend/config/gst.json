@@ -1,0 +1,15 @@
+{
+  "_note": "Demo GST settings for the TAX INVOICE PDF. Catalog prices include GST. Edit HSN codes per category here.",
+  "seller_name": "TrustDeal · BASIX Store",
+  "seller_gstin": "29ABCDE1234F1Z5",
+  "seller_gstin_is_demo": true,
+  "place_of_supply": "Karnataka (29)",
+  "cgst_rate": 9,
+  "sgst_rate": 9,
+  "hsn_by_category": {
+    "mobiles": "8517",
+    "laptops": "8471",
+    "accessories": "8504",
+    "general": "8479"
+  }
+}
